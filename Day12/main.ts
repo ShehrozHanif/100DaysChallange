@@ -35,3 +35,8 @@
 
 // Question No 36
 
+// function makeShirt(size:string, message:string){
+//     console.log(`Make a ${size} t-shirt with the message "${message}" print on it`)
+// };
+
+// makeShirt("Large","Qaidi No 804")
