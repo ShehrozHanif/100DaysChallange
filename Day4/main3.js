@@ -1,20 +1,26 @@
 "use strict";
 // Day 4
-//  Question 10
+//  Question 10:
+/* Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If the programs are straightforward at
+this point, just add your name and the current date at the top of each program file. Then, write one sentence describing what the program does */
 Object.defineProperty(exports, "__esModule", { value: true });
-// In this program we write a Quotation"  " along with author name
-let author = "Imran Khan";
-let quotation = "You only loose when you give up";
-console.log(`"${author} once said,"${quotation}""`);
-// and we need to make sure the comma(,) and inverted commas ("") put in right place 
-// Question 11
+// Shehroz, 2024-03-05
+// This program prints a personal message.
+let myName = "Shehroz";
+console.log(`Hello ${myName}, would you like to learn some TypeScript today?`);
+// Question 11:
+/* Names: Store the names of a few of your friends in an array called names. Print each person’s name by accessing each element in the list,
+one at a time.
+ */
 let friendList = ["nabil", "akbar", "huzaifa", "yazdani"];
 // // Store a friend names in an Array[]
 for (let i = 0; i < friendList.length; i++) {
     console.log(friendList[i]);
 }
 // // we use iteration so array name display line by line
-// Question No 12
+// Question No 12:
+/*  Greetings: Use the array from Exercise 11. Instead of just printing each person’s name, print a message to them. The message
+ should be the same for each person, but personalized with their name. */
 // what we do in the code to add add a variable in iteration let me show you
 let name1 = ["nabil", "akbar", "huzaifa", "yazdani"];
 for (let i = 0; i < name1.length; i++) {

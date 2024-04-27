@@ -1,6 +1,7 @@
 // Day 13
 
-// Question No 37
+// Question No 37:
+/* Large Shirts: Default values in make_shirt(). */
 
 function maketshirt(size:string="Large", message:string="I love myself"){
     console.log(`Making a ${size} size T-shirt and print on that message "${message}"`)
@@ -15,7 +16,12 @@ maketshirt("Small","Coding is my life");
 // In this function we give both the Argument
 
 
-// Question No 38
+
+
+
+
+// Question No 38:
+/* Cities: Describing cities with a function. */
 
 function describe_city(city:string, country:string="Pakistan"){
     console.log(`${city} is in ${country}`)
@@ -33,7 +39,11 @@ describe_city("London","England")
 // In this function we give both argument 
 
 
-// Question 39
+
+
+
+// Question 39:
+/*  City Names: Formatting city-country pairs */
 
 function city_country(city:string, country:string):string{
     return `${city} , ${country}`

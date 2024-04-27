@@ -1,6 +1,7 @@
 "use strict";
 // Day 10
-//  //     //          //        (Question NO 28)
+//(Question NO 28):
+/* Stages of Life: Determine a person’s life stage with an if-else chain. */
 let age = 26;
 if (age < 2) {
     console.log("its a baby");
@@ -21,8 +22,8 @@ else {
     console.log("the person is an elder");
 }
 //  Declare a variable called age in which assign our age then with the help of if and else statement tell that at what age what should call
-// 
-// // //      //                   (Question 29)
+// (Question 29):
+/*  Favorite Fruit: Create an array for your favorite fruits and check if certain fruits are included. */
 let favourite_Fruit = ["Apple", "Kinno", "Mango"];
 if (favourite_Fruit.includes("Apple")) {
     console.log("you really like Apple");
@@ -34,7 +35,8 @@ if (favourite_Fruit.includes("Mango")) {
     console.log("you really like Mango");
 }
 // As you can make an arry[] in which place our favourite fruits and check with if statement if this appear in that Array so print as you can see.
-//  //    //       //              (Question no 30)
+//(Question no 30):
+/* Hello Admin: Greet users differently, especially 'admin' */
 let userName = ["admin", "user1", "user2", "user3", "user4"];
 for (let i = 0; i < userName.length; i++) {
     if (userName[i] === "admin") {

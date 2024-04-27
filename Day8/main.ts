@@ -1,5 +1,6 @@
 //   Day 8
-//  //            (Question No 22)
+//(Question No 22):
+/* Intentional Error: Try to produce an array index error in one of your programs. Correct the error before finishing. */
 
 let arr:string[] = ["Nabil","Akbar","Huzaifa","Yazdani"]
 // We make an Array[]
@@ -14,7 +15,10 @@ console.log(arr[4])
 
 
 
-//    //            (Question No 23)
+
+
+//(Question No 23):
+/* Conditional Tests: Write a series of conditional tests. Predict the results of each test. */
 
 // 1) Contional Check
 let ironMan = 'Shehroz'
@@ -68,7 +72,11 @@ console.log(karachi == 'Safe City in the world') // False Condition
 
 
 
-// //           //        (Question No 24)      
+
+
+
+//(Question No 24):
+/*More Conditional Tests: Expand your conditional tests to cover a wider range of comparisons. */      
 
 // Again Testing True and False testing like you did earlier but this time use Array[] and checkiing whether item is in Array[] OR Not
 //  If is in Array[] than Print True otherwise False

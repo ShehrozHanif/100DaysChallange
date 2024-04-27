@@ -1,8 +1,9 @@
 // Day 15
 
-// Question No 43
+// Question No 43:
+/* Unchanged Magicians: Preserve the original magician names while creating a new "great" list. */
 
-// In thi question use old reference function
+// In this question use old reference function
 
 function showMagician(magician:string[]){
     for(let i =0; i<magician.length; i++){
@@ -42,7 +43,16 @@ let greatMagicians = makeGreat(magicians.slice());
 // Than we console it and see a result
 
 
-// Question 44
+
+
+
+
+
+
+
+// Question 44:
+/* Sandwiches: Summarize sandwich orders with varying ingredients */
+
 function makeSandwich(...product:string[]){
     console.log(`making a sandwich with ${product.join(',')}.`)
 }
@@ -51,4 +61,18 @@ function makeSandwich(...product:string[]){
 // what we did in this function use .join so with only one parameter we use multiple Arguments
 
 
-// Question 45
+
+
+
+
+// Question 45:
+/* Cars: Create detailed car objects with flexible properties. */
+
+function make_car(manufacturer: string, model: string, ...options: [string, any][]): Object {
+    let car:any = { manufacturer, model };
+    options.forEach(([key, value]) => car[key] = value);
+    return car;
+}
+
+console.log(make_car("Toyota", "Corolla", ["color", "red"], ["year", 2020]));
+console.log(make_car("Ford", "Fiesta", ["color", "blue"], ["sunroof", true]));

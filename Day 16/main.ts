@@ -1,4 +1,4 @@
-// Question 46
+// Question 46:
 /* Enhaced Laptop Object: Construcy an Object for a Laptop including properties make, model, year and a method describe() that logs a 
 sentence about the laptop?  */
 import chalk from "chalk"
@@ -14,7 +14,7 @@ let laptop ={
 
 laptop.describe()
 
-// Question 47
+// Question 47:
 /* Advanced Array Destructiong Given an array of objects representing different laptops, each with properties make, model, year, use 
 array destruction to assign the first and second laptops to variables Then, log these variables. */
 
@@ -44,7 +44,7 @@ console.log(loptop2)
 console.log(loptop3)
 console.log(loptop4)
 
-// Question 48
+// Question 48:
 /* Combining Arrays with spread operators: Suppose you are compairing prices of two different sets of laptops.Use the spread Operators to combine
 these arrays into a single array sorted in ascending order, then log the result?  */
 

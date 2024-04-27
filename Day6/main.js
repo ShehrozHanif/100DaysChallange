@@ -1,6 +1,7 @@
 "use strict";
 // Day 6
-// Question No 16
+// Question No 16:
+/*  More Guests: You've found a bigger dinner table, so there's room for more guests. */
 let oldGuest = ["Imran Khan Sahab", "Tariq Jameel Sahab", "Sir Zia"];
 // // As you can see or know we already invite some guest in our previous Program
 // //but this time we found a bigger Dinnig table so we invite more guest
@@ -19,7 +20,8 @@ for (let i = 0; i < oldGuest.length; i++) {
 }
 // //So as you can see we add more guest in the beginning , Middle and End
 //       //          //        Question no 17  //        //          //            //          // 
-//Question 17
+//Question 17:
+/* Shrinking Guest List: Unfortunately, your new table won’t arrive in time, and you can only invite two guests. */
 //  console.log(" As you know due to shortage of table I can invite only 2 people")
 //  Remaining Guest will be remove
 // let GuestList:string[] =["Mrs Imran khan","Imran Khan Sahab","Murad Saaed","Tariq Jameel Sahab","Sir Zia","Yateem Bacho"]
@@ -34,6 +36,7 @@ for (let i = 0; i < oldGuest.length; i++) {
 // The Question demand due to shortage of table we need to cancel the invite of more than 2 guest
 // let me try Another way beacuse i am not satisfy with this becasue it's not look like programer type
 //   // Question No 17 (Again) 
+/* Shrinking Guest List: Unfortunately, your new table won’t arrive in time, and you can only invite two guests. */
 console.log("Unfortunately,new table won't arrive sp I can only invite two people for dinner.");
 let GuestList = ["Mrs Imran khan", "Mr Imran Khan Sahab", "Murad Saaed", "Tariq Jameel Sahab", "Sir Zia", "Yateem Bacho"];
 if (GuestList.length > 2) {
@@ -58,7 +61,8 @@ console.log(GuestList);
 // As you can see in the terminal when it console.log()
 // // So the moral of this question is that because of new table won't arrive so we remove some people from our guess list and in the end show the 
 // // list empty.
-// Question No 18
+// Question No 18:
+/* Seeing the World: Think of at least five places you’d like to visit. */
 let places = ["Norway", "Swizerland", "Canada", "Greenland", "United KIngdom"];
 console.log("Original order:", places);
 // This is an Origanl Array[]
