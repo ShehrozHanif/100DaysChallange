@@ -8,8 +8,9 @@ console.log(lengths)
 
 
 
-//Question 95: Write a function that uses the .filtar() method. Create a new array with all elements that pass the test implemented by the provided 
-//  function 
+
+//Question 95: Write a function that uses the .filtar() method. Create a new array with all elements that 
+// pass the test implemented by the provided function 
 
 function greaterNumber(num1:number[]):number[]{
     return num1.filter(Number => Number>10 )
@@ -18,6 +19,7 @@ function greaterNumber(num1:number[]):number[]{
 const num2:number[] = [5,10,15,20,25,30]
 
 console.log(greaterNumber(num2))
+
 
 
 // Question 96:   Demonstrate how to use the .reduce() method to call the sum of all number in an array

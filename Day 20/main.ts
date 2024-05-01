@@ -10,7 +10,9 @@ function averageScore3(...scores:number[]):number{
 let check = console.log(averageScore3(562,450,356,256,265,279))
 
 //Question No 59
-/* Add a Special Number. Make a program that crates custom adders.These adders can add a specific number to any other number you give them later? */
+/* Add a Special Number. Make a program that crates custom adders.These adders can add a specific number to any 
+other number you give them later? */
+
 function addMaker(valuTOAdd:number):(number:number)=>number{
     return function(number:number):number{
         return number + valuTOAdd
@@ -22,7 +24,8 @@ let addfive = addMaker(20)
 console.log(addfive(10))
 
 // Question 60 
-/* Self running user Profile create a quick, self-setup profile for a user that can tell you the user's name and age? */
+/* Self running user Profile create a quick, self-setup profile for a user that can tell you the 
+user's name and age? */
 
 import chalk from "chalk"
 

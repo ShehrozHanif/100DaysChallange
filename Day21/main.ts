@@ -1,4 +1,4 @@
-// Day 20
+// Day 21
 // Question 61:
 /* Making Enums for Vehicles: Let's create categories for vehicles like cars, trucks, motercycles using enums, and show one example. */
 
@@ -33,8 +33,8 @@ console.log(stud)
 
 
 // Question 63:
-/* Shape Shifter: write a program that can describe either a circle or rectangle using a special type alias, including properties unique to each
-shape. */
+/* Shape Shifter: write a program that can describe either a circle or rectangle using a special type alias,
+ including properties unique to each shape. */
 
 type shape = {
     kind: "circle" | "rectangle" ;

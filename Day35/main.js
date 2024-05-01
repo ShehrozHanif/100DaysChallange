@@ -15,6 +15,6 @@ function rollDice() {
     return Math.floor(Math.random() * 6) + 1;
 }
 console.log(rollDice());
-let color = '#' + Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, "0");
-console.log(color);
 export {};
+// let color = '#' + Math.floor(Math.random()*0xffffff).toString(16).padStart(6,"0")
+// console.log(color)

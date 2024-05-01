@@ -1,6 +1,7 @@
 // Day 19
 // Question 55
-/* Double number in an Array: Make a list of numbers.Then use, a trick to make a new list where each number is twice its orignal value? */
+/* Double number in an Array: Make a list of numbers.Then use, a trick to make a new list where each number is
+ twice its orignal value? */
 
 let number = [1,2,3,4,5,6]
 

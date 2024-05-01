@@ -1,3 +1,5 @@
+
+// Day 16
 // Question 46:
 /* Enhaced Laptop Object: Construcy an Object for a Laptop including properties make, model, year and a method describe() that logs a 
 sentence about the laptop?  */

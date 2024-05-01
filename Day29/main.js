@@ -1,14 +1,14 @@
 // Day 29
 // Question 85:
-/* Finding the position of a Substring:Write a function that locates the first occurance of the word "code" within any guven string and returns
-its position */
+/* Finding the position of a Substring:Write a function that locates the first occurance of the word "code"
+within any guven string and returns its position */
 function firstOccur(str) {
     return str.indexOf("code");
 }
 console.log(firstOccur("learn code with typeScript"));
 // Question 86:
-/*Checking for Text Presence: Create a function that checks if the word "JavaScript" is present in a given string. It should return true if found,
-otherwise false.  */
+/*Checking for Text Presence: Create a function that checks if the word "JavaScript" is present in a given
+string. It should return true if found, otherwise false.  */
 function stePresence(str1) {
     return str1.includes("JavaScript");
 }

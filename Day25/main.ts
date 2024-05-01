@@ -1,7 +1,7 @@
 // Day 25
 // Question 73:
-/* Assigning and Updating variable: Create a function where you declare a variable using let and assign an initial value. Then,update its
-valuw within the same function and log both the initial and updated values. */
+/* Assigning and Updating variable: Create a function where you declare a variable using let and assign 
+an initial value. Then,update its valuw within the same function and log both the initial and updated values. */
 
 function updatedValue(){
     let name = "shehroz"  // Declare a variable using let and assign an initial value
@@ -14,8 +14,8 @@ function updatedValue(){
 updatedValue()
 
 // Question 74:
-/* Swappping variables: Demostrate how to swape the values of two variables. Start with variable a = 5 , b = 6, than swap their values so that a
-becomes 6 and b becomes 5. */
+/* Swappping variables: Demostrate how to swape the values of two variables. Start with variable a = 5 , b = 6,
+ than swap their values so that a becomes 6 and b becomes 5. */
 
 function swapVlaues(){
     let a = 5
@@ -37,8 +37,9 @@ swapVlaues()
 
 
 // Question 75:
-/* Compound assignment Operators: Use compound assignment Operator to simplify arithmetic Operations. Start with x = 4 and perform a series
-of Operations(Addition,Subtraction,Multiplication,Division) on x using compound Operators. */
+/* Compound assignment Operators: Use compound assignment Operator to simplify arithmetic Operations. 
+Start with x = 4 and perform a series of Operations(Addition,Subtraction,Multiplication,Division) 
+on x using compound Operators. */
 
 function usingCompoundAssignmentOperator(){
     let x = 4;
