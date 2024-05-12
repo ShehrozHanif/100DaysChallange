@@ -11,7 +11,7 @@ const car = {
 console.log(car.getName())
 
 
-// Question 125: Modify a method in anobject to use this keyword to access anoter property in the same object:
+// Question 125: Modify a method in an object to use this keyword to access anoter property in the same object:
 
 const rectangle = {
     length: 5,
