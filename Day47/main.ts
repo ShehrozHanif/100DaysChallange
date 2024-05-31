@@ -22,7 +22,7 @@ function mul(a:number, b:number){
 //Question 140: Explain the error that Occurs when trying to use a reserved words as a variable name.
  
 // let if =5;
-// console.log("Error occur because we used reserved keyword as a variable name ")
+console.log("Error occur because we used reserved keyword as a variable name ")
 
 
 

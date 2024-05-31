@@ -34,3 +34,4 @@ const person2 = {name:"kamil", age:30, city:"Bahwalnagar"}
 // convert the object into a Json string with indentation
  let convert = JSON.stringify(person2 , null, 2)
  console.log(convert)
+ 
